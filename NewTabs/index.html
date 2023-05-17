@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+   <h1> index page </h1>
+   <button type="button" id="btn1">google home</button>
+   <button type="button" id="btn2" >go to w3schools</button>
+   <button type="button" id="btn3">images page</button>
+   <script>
+    const googleBtn = document.getElementById(`btn1`);
+    googleBtn.onclick = () => {
+      window.open(`https://google.com`);
+    };
+
+    const w3Btn = document.getElementById(`btn2`);
+    w3Btn.onclick = () => {
+        window.open(`https://www.w3schools.com/js`);
+    };
+
+    const imageEl = document.getElementById(`btn3`);
+    imageEl.onclick = () => {
+        location.href = (`./images.html`);
+    }
+   </script>
+</body>
+</html>
+

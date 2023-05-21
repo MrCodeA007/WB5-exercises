@@ -31,3 +31,5 @@ function addBtnClickedAddImage() {
 }
 const locationDiv = document.getElementById("locationDiv");
 locationDiv.appendChild(img);
+
+//work on github as well
